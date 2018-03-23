@@ -1,0 +1,19 @@
+body {
+       background-color:cyan;
+       font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+       font-size:12px;
+       height:100%;
+       margin:0px;
+       padding-left:100px;
+       width:100%;
+   }
+
+   #photo{
+       display:none;
+       width:200px;
+       height:200px;
+   }
+
+   #sendPhoto{
+       display: none;
+   }
