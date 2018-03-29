@@ -15,10 +15,9 @@ The necessary plugins are:
 <h3>How to view it in your browser:</h3>
 
 To view the application in the browser we must:
-1.Start the server.
-2.launch the application in the desired emulator
-3. go to browser >inspect>more tools>remote devices>select emulator>inspect 
-with this we will see everything that happens in the application in our browser.
+<p>1.launch the application in the desired emulator</p>
+<p>2.go to browser >inspect>more tools>remote devices>select emulator>inspect 
+with this we will see everything that happens in the application in our browser.</p>
 
 <h3>Run it in the emulator:</h3>
 
