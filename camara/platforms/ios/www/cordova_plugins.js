@@ -47,6 +47,15 @@ module.exports = [
     "clobbers": [
       "CameraPopoverHandle"
     ]
+  },
+  {
+    "id": "cordova-plugin-vibration.notification",
+    "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+    "pluginId": "cordova-plugin-vibration",
+    "merges": [
+      "navigator.notification",
+      "navigator"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -54,7 +63,8 @@ module.exports.metadata =
 {
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-device-motion": "1.2.5",
-  "cordova-plugin-camera": "4.0.2"
+  "cordova-plugin-camera": "4.0.2",
+  "cordova-plugin-vibration": "3.0.1"
 };
 // BOTTOM OF METADATA
 });

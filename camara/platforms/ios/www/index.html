@@ -27,24 +27,20 @@
              <title>Acceso a la cámara con PhoneGap</title>
          </head>
          <body onload="onLoad()">
+           <!--uso de vibracion al enviar foto-->
              <div id="content" style="margin-top: 100px;">
                  <h1>Test camera/audio </h1>
                  <button id="takePhoto">TOMAR FOTO</button>
                  <img id="photo" src=""/>
-                 <button id="sendPhoto">ENVIAR FOTO</button>
+                <center> <button id="sendPhoto">ENVIAR FOTO</button> </center>
              </div>
              <script type="text/javascript" src="cordova.js"></script>
              <script type="text/javascript" src="js/index.js"></script>
              <script type="text/javascript">app.initialize();</script>
-             <!--uso de volumen-->
+             <!--uso de volumen -->
              <script type="text/javascript" charset="utf-8">
 
-   // Call onDeviceReady when Cordova is loaded.
-   //
-   // At this point, the document has loaded but cordova-x.x.x.js has not.
-   // When Cordova is loaded and talking with the native device,
-   // it will call the event `deviceready`.
-   //
+
    function onLoad() {
        document.addEventListener("deviceready", onDeviceReady, false);
    }
@@ -62,7 +58,6 @@
    //
    function onVolumeDownKeyDown() {
      alert("bajado el volumen");
-
    }
 
    function onVolumeUpKeyDown() {

@@ -9,9 +9,11 @@ var app = {
               takePhoto.addEventListener('click', app.takePhoto, false);
               var sendPhoto = document.getElementById('sendPhoto');
               sendPhoto.addEventListener('click', app.sendPhoto, false);
+              
           },
-
+//uso de vibracion
           sendPhoto: function() {
+              navigator.vibrate(500);
               alert('Imagen enviada al servidor');
           },
 
